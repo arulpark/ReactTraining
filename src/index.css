@@ -1,0 +1,14 @@
+@import 'font-awesome/css/font-awesome.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header_bg { background-image: url(./header-bg.png); background-repeat: no-repeat; background-size: cover;}
+.portlist { overflow: hidden;}
+.portlist:hover img {-webkit-transform: scale(1.3); transform: scale(1.3);}
+.portlist img{transition: all 1s;}
+.productlisttbl th { border: 1px solid #cecece; padding: 5px; background-color: #e0e0e0;}
+.productlisttbl td { border: 1px solid #ececec; padding: 5px; font-size: 14px;}
+.productlisttbl td:first-child { text-align: center;}
